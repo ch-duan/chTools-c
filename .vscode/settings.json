@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.js": "javascript",
+        "*.html": "html",
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "binary.h": "c",
+        "stdbool.h": "c",
+        "string.h": "c",
+        "cstdlib": "c",
+        "xutility": "c"
+    }
+}

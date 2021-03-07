@@ -1,0 +1,2 @@
+aux_source_directory(. DIR_ENCODE_BINARY_SRCS)
+add_library(encode_binary ${DIR_ENCODE_BINARY_SRCS})

@@ -28,7 +28,7 @@ uint8_t *intToByte(long v, int byteLen, bool isBigEndian)
     int i = 0;
     if (isBigEndian)
     {
-        for (i = byteLen - 1; i >= 0; i++)
+        for (i = byteLen - 1; i >= 0; i--)
         {
             b[i] = (uint8_t)(v >> (byteLen - 1 - i) * 8);
         }

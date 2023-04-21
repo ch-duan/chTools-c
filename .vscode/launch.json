@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "make",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/${workspaceRootFolderName}",
+      "args": [],
+      "stopOnEntry": false,
+      "cwd": "${workspaceFolder}/build",
+      "terminal": "integrated",
+      "preLaunchTask": "make"
+    },
+    {
+      "name": "ninja",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/${workspaceRootFolderName}",
+      "args": [],
+      "stopOnEntry": false,
+      "cwd": "${workspaceFolder}/build",
+      "terminal": "integrated",
+      "preLaunchTask": "ninja",
+      "postRunCommands": [],
+      "preRunCommands": []
+    }
+  ]
+}
